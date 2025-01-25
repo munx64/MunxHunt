@@ -2,7 +2,10 @@
 ```markdown
 # UltraZero - Ultimate Security Scanner
 
-UltraZero is a powerful and versatile security scanning tool designed to help security professionals and enthusiasts identify vulnerabilities in their systems. With features like port scanning, subdomain enumeration, vulnerability scanning, and deep crawling, UltraZero provides a comprehensive approach to security assessment.
+UltraZero is a powerful and versatile security scanning tool designed to help
+security professionals and enthusiasts identify vulnerabilities in their systems.
+ With features like port scanning, subdomain enumeration, vulnerability scanning,
+ and deep crawling, UltraZero provides a comprehensive approach to security assessment.
 
 ## Features
 
