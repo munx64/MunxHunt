@@ -1,6 +1,6 @@
-# 🔥 MunxHunt - مُسح الثغرات الذكي / Intelligent Vulnerability Scanner
-
-![MunxHunt Banner](screenshot.png)
+# MunxHunt
+### Intelligent Vulnerability Scanner - مُسح الثغرات الذكي 
+<img src="screenshot.png" alt="MunxHunt Banner" width="600" />
 
 [![GitHub Stars](https://img.shields.io/github/stars/munx64/MunxHunt?style=for-the-badge)](https://github.com/munx64/MunxHunt/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-%23red?style=for-the-badge)](LICENSE)
@@ -60,16 +60,8 @@ python3 MunxHunt.py -t example.com
 python3 MunxHunt.py -t 192.168.1.1 --vuln-scan --stealth -o report.json
 ```
 
-## 🪙 Cryptocurrency Support / دعم العملات الرقمية
-
-### 💰 Support Project Development
-- **Bitcoin**: `BC1QJ3HDSK2TFKGHZLT7N9PXRV9AACKFYDHYY0TVFX5R3EJZTS7EZT3SZ8Q284`
-- **Ethereum**: `0x1234abcd...`
-
-![Crypto QR Codes](crypto_qr.png)
-
 ## 📸 Screenshots / لقطات شاشة
-![Scan Demonstration](demo.gif)
+<img src="demo.gif" alt="Scan Demonstration" width="600" />
 
 ## 🤝 Contributing / المساهمة
 ```bash
@@ -102,8 +94,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Explicit permission required
 - Strict legal compliance
 
----
+## 🪙 Cryptocurrency Support / دعم العملات الرقمية
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=Developed+with+%E2%9D%A4%EF%B8%8F+by+Munx64;Stay+Safe+%E2%9A%A0%EF%B8%8F;Hack+The+Planet+%F0%9F%9B%A0" alt="Typing SVG" />
-</div>
+### 💰 Support Project Development
+- **Bitcoin**: `BC1QJ3HDSK2TFKGHZLT7N9PXRV9AACKFYDHYY0TVFX5R3EJZTS7EZT3SZ8Q284`
+<img src="crypto_qr.png" alt="Crypto QR Codes" width="300" />
