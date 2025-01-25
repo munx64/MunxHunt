@@ -1,11 +1,11 @@
-### Intelligent Vulnerability Scanner - مُسح الثغرات الذكي 
-```markdown
+### Intelligent Vulnerability Scanner - مُسح الثغرات الذكي
+
 # UltraZero - Ultimate Security Scanner
 
 UltraZero is a powerful and versatile security scanning tool designed to help
 security professionals and enthusiasts identify vulnerabilities in their systems.
- With features like port scanning, subdomain enumeration, vulnerability scanning,
- and deep crawling, UltraZero provides a comprehensive approach to security assessment.
+With features like port scanning, subdomain enumeration, vulnerability scanning,
+and deep crawling, UltraZero provides a comprehensive approach to security assessment.
 
 ## Features
 
@@ -104,11 +104,114 @@ For support, questions, or feature requests, please open an issue on the [GitHub
 
 If you find this tool useful and would like to support its development, you can donate Bitcoin to the following address:
 
-**Bitcoin Address**: `BC1QJ3HDSK2TFKGHZLT7N9PXRV9AACKFYDHYY0TVFX5R3EJZTS7EZT3SZ8Q284`
+**Bitcoin**: `BC1QJ3HDSK2TFKGHZLT7N9PXRV9AACKFYDHYY0TVFX5R3EJZTS7EZT3SZ8Q284`
 
 ---
 
 **UltraZero** - Your ultimate tool for security scanning. Stay safe, stay secure!
 ```
+```
+---
 
-This update includes the Bitcoin address in the **Support** section, allowing users to contribute financially to the project if they wish.
+# أداة الفحص الأمني المتطورة - UltraZero 
+
+ هي أداة قوية ومتعددة الاستخدامات مصممة لمساعدة المحترفين والمهتمين بالأمن في اكتشاف الثغرات الأمنية في أنظمتهم. مع ميزات مثل فحص المنافذ، تعداد النطاقات الفرعية، فحص الثغرات الأمنية، والزحف العميق، توفر UltraZero نهجًا شاملاً لتقييم الأمان.
+
+## الميزات
+
+- **فحص المنافذ السريع**: فحص سريع للمنافذ الشائعة لتحديد الخدمات المفتوحة.
+- **تعداد النطاقات الفرعية**: اكتشاف النطاقات الفرعية المرتبطة بالنطاق المستهدف.
+- **فحص الثغرات الأمنية**: اكتشاف الثغرات الشائعة مثل حقن SQL وثغرات XSS.
+- **الزحف العميق**: زحف الموقع المستهدف لاكتشاف الصفحات والنقاط المخفية.
+- **تعدد المهام**: استخدام خيوط متعددة لإجراء الفحص بشكل أسرع.
+- **وضع التخفي**: تفعيل وضع التخفي لتقليل احتمالية الاكتشاف.
+- **دعم متعدد اللغات**: متاح باللغتين الإنجليزية والعربية.
+
+## التثبيت
+
+لتركيب UltraZero، اتبع الخطوات التالية:
+
+**نسخ المستودع**:
+   ```bash
+   git clone https://github.com/munx64/UltraZero.git
+   cd UltraZero
+   ```
+
+**تثبيت التبعيات**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+**تشغيل الأداة**:
+   ```bash
+   python3 UltraZero.py -t <الهدف> [خيارات]
+   ```
+
+## طريقة الاستخدام
+
+### الاستخدام الأساسي
+
+لبدء فحص أساسي على هدف معين، استخدم الأمر التالي:
+
+```bash
+python3 UltraZero.py -t example.com
+```
+
+### الخيارات المتقدمة
+
+**حفظ النتائج في ملف**
+  ```bash
+  python3 UltraZero.py -t example.com -o output.json
+  ```
+
+**تحديد عدد الخيوط**
+  ```bash
+  python3 UltraZero.py -t example.com --threads 100
+  ```
+
+**تفعيل وضع التخفي**
+  ```bas
+  python3 UltraZero.py -t example.com --stealth
+  ```
+
+**تغيير اللغة**
+  ```bash
+  python3 UltraZero.py -t example.com --lang ar
+  ```
+
+### أمثلة على الأوامر
+
+**فحص هدف مع 200 خيط وحفظ النتائج في ملف**:
+   ```bash
+   python3 UltraZero.py -t example.com --threads 200 -o results.json
+   ```
+
+**فحص هدف في وضع التخفي مع دعم اللغة العربية**:
+   ```bash
+   python3 UltraZero.py -t example.com --stealth --lang ar
+   ```
+
+## المساهمة
+
+نرحب بالمساهمات من المجتمع! إذا كنت ترغب في المساهمة في تطوير UltraZero، يرجى اتباع الخطوات التالية:
+
+**قم بعمل fork للمستودع**.
+**أنشئ فرعًا جديدًا** لميزتك أو إصلاح الخلل.
+**قم بإجراء التغييرات** وادفعها إلى نسختك.
+**قدم طلب سحب** يوضح التغييرات التي أجريتها.
+
+## الترخيص
+
+مرخصة تحت رخصة MIT. يمكنك الاطلاع على تفاصيل الرخصة في ملف UltraZero [LICENSE](LICENSE).
+
+## إخلاء المسؤولية
+
+هذه الأداة مخصصة لأغراض تعليمية واختبارية أخلاقية فقط. المؤلفون غير مسؤولين عن أي سوء استخدام أو ضرر ناتج عن هذه الأداة. تأكد دائمًا من الحصول على إذن قبل فحص أي نظام.
+
+## الدعم
+
+للحصول على الدعم أو طرح الأسئلة أو طلب ميزات جديدة، يرجى فتح طلب في [مستودع GitHub](https://github.com/munx64/UltraZero/issues).
+
+إذا وجدت هذه الأداة مفيدة وترغب في دعم تطويرها، يمكنك التبرع بالبتكوين إلى العنوان التالي:
+
+**البتكوين**: `BC1QJ3HDSK2TFKGHZLT7N9PXRV9AACKFYDHYY0TVFX5R3EJZTS7EZT3SZ8Q284`
